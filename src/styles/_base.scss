@@ -1,0 +1,12 @@
+@import "./variables";
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 140rem;
+    height: 1vh;
+    padding: 5rem;
+    background: $color-gray-bg;
+    // overflow: hidden;
+}

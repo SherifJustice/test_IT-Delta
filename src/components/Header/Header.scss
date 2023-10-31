@@ -1,0 +1,53 @@
+@import "../../styles/variables";
+
+.header {
+    width: 136rem;
+    height: 25.6rem;
+    display: flex;
+    // width: 1024px;
+    padding: 0px 3rem;
+    gap: 20px;
+    position: relative;
+    margin-bottom: 5rem;
+}
+.content__banner {
+    width: 135rem;
+    height: 15.6rem;
+    background: $color-gray-bg, url("../../img/1.png"), center / cover no-repeat;
+    transform: translateX(-9rem);
+}
+.content__avatar {
+    width: 12.8rem;
+    height: 12.8rem;
+    border-radius: 50%;
+    z-index: 20;
+    position: absolute;
+    display: inline-block;
+    left: 20rem;
+    top: 10rem;
+}
+.content__name {
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.2rem;
+    align-items: center;
+    transform: translateX(40rem);
+}
+.btn {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: .8rem;
+    margin-right: 20rem;
+    transform: translateY(-5rem);
+}
+.btn__img {
+    border: .1rem solid $color-gray-bg;
+    border-radius: .6rem;
+    padding: .9rem 1.7rem .9rem 1.3rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: .8rem;
+}

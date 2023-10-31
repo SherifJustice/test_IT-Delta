@@ -1,0 +1,23 @@
+.section {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: flex-start;
+}
+.row{
+    gap: 2rem;
+}
+.row__item {
+    display: inline-block;
+    padding: 2rem;
+}
+.row__item_img {
+    width: 34rem;
+    height: 24rem;
+    border-radius: 4rem;
+    box-shadow: .4rem .7rem rgba($color: #000000, $alpha: 0.2);
+}
+.row__item__img-btn{
+    border: none;
+    background: transparent;
+}
